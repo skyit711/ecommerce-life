@@ -54,6 +54,13 @@ To set up and run your Laravel application, follow these steps:
    php artisan migrate
    ```
 
+   and run seeder for admin user
+    ```bash
+   php artisan db:seed --class=UserSeeder
+   ```
+
+
+use credential admin@example.com  & adminpassword as password
 
 6. **Start the Development Server:**
 
